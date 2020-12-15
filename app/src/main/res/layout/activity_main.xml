@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hikers"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Hiker's Watch"
+        android:textColor="#009688"
+        android:textSize="50sp"></TextView>
+
+    <TextView
+        android:id="@+id/latTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="130dp"
+        android:padding="5dp"
+        android:text="Latitude : "
+        android:textColor="#F1F8F7"
+        android:textSize="20sp"></TextView>
+    <TextView
+        android:id="@+id/lonTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/latTextview"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="Longitude : "
+        android:textColor="#F1F8F7"
+        android:textSize="20sp"></TextView>
+    <TextView
+        android:id="@+id/accTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/lonTextview"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="Accuracy : "
+        android:textColor="#F1F8F7"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/altTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/accTextview"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="Altitude : "
+        android:textColor="#F1F8F7"
+        android:textSize="20sp"></TextView>
+    <TextView
+        android:id="@+id/addressTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/altTextview"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="Address : "
+        android:textColor="#F1F8F7"
+        android:textSize="20sp"></TextView>
+
+</RelativeLayout>
